@@ -1,0 +1,9 @@
+Target to be detected:
+1) TARGET: object to be picked up 
+   - Total 69; Testing = 14 (20%)
+2) STOP_RED: red traffic light => Total 128
+   - Total 128; Testing = 39 (30%)
+3) LEFT_GRE: green traffice light with left arrow
+   - Total 127; Testing = 38 (30%)
+4) RIGHT_GRE: green traffic light iwht right arrow
+   - Total 127; Testing = 38 (30%)

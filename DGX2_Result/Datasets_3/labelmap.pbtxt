@@ -1,0 +1,19 @@
+item{
+  id: 1
+  name: 'TARGET'
+}
+
+item{
+  id: 2
+  name: 'STOP_RED'
+}
+
+item{
+  id: 3
+  name: 'LEFT_GRE'
+}
+
+item{
+  id: 4
+  name: 'RIGHT_GRE'
+}

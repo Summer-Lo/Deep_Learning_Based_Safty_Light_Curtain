@@ -1,0 +1,18 @@
+After training the network by DGX2, follow the following steps to import the custom weights.
+
+1) After the training, you get 7 files (refer to DGX2:Job002)
+- checkpoint (A)
+- frozen_inference_graph.pb (B)
+- model.ckpt.data-00000-of-00001 (C)
+- model.ckpt.index (D)
+- model.ckpt.meta (E)
+- pipline.config (F)
+- labelmap.pbtxt (G)
+
+2) Open a new directory and copty tf_trt_models which used before
+
+3) copy A-F to the NEW tf_trt_models/data/ssd_mobilenet_v1_coco_2018_01_28
+
+4) copy G to tf_trt_models/third_party/models/research/object_detection/data/labelmap.pbtxt
+
+5) Rebuild the tensorRT

@@ -1,0 +1,25 @@
+item {
+  id: 1
+  name: 'TARGET'
+}
+
+item {
+  id: 2
+  name: 'RED'
+}
+
+item {
+  id: 3
+  name: 'GREEN_L'
+}
+
+item {
+  id: 4
+  name: 'GREEN_R'
+}
+
+item {
+  id: 5
+  name: 'YELLOW'
+}
+

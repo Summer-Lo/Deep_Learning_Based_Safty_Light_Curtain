@@ -1,0 +1,1 @@
+gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM),width=2592, height=1458, framerate=30/1, format=NV12' ! nvvidconv flip-method=2 ! 'video/x-raw,width=640, height=480, format=(string)BGRx' !nvvidconv ! nvegltransform ! nveglglessink -e
