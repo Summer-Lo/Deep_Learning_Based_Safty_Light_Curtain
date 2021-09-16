@@ -17,3 +17,13 @@ In this project, the hardware device is a combination of Nvidia Jetson Nano and 
 ![image](https://github.com/Summer-Lo/Deep_Learning_Based_Safty_Light_Curtain/blob/main/images/flowchart.png)
 
 This project involves SSD-MobileNet version 1 to achieve the object detection. Mobilenet is the base network for feature extraction. Meanwhile, SSD was used to perform classification and boundary box regression. Moreover, TensorRT is used to speed up the operation. If the "human" is detected, the program return "Danger!!!" to remain the workers for avoiding accident.
+
+
+**3. Deep Learning (object detection) Integration**
+---------------------------
+# 3.1. Tensorboard Training Evaluation
+![image](https://github.com/Summer-Lo/Deep_Learning_Based_Safty_Light_Curtain/blob/main/images/learning_rate.png)
+
+![image](https://github.com/Summer-Lo/Deep_Learning_Based_Safty_Light_Curtain/blob/main/images/losses_smoothing.png)
+
+![image](https://github.com/Summer-Lo/Deep_Learning_Based_Safty_Light_Curtain/blob/main/images/losses_nonsmoothing.png)
